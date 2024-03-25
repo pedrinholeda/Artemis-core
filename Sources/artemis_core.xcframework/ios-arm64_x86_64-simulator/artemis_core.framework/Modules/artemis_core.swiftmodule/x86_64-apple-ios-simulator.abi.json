@@ -1,0 +1,3900 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAPreferencesUtil",
+        "printedName": "AAPreferencesUtil",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "saveConfig",
+            "printedName": "saveConfig(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AAConfig",
+                "printedName": "artemis_core.AAConfig",
+                "usr": "s:12artemis_core8AAConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC10saveConfig6configyAA8AAConfigV_tFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC10saveConfig6configyAA8AAConfigV_tFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveApiConfig",
+            "printedName": "saveApiConfig(apiConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AAPIConfig",
+                "printedName": "artemis_core.AAPIConfig",
+                "usr": "s:12artemis_core10AAPIConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC13saveApiConfig03apiG0yAA10AAPIConfigV_tFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC13saveApiConfig03apiG0yAA10AAPIConfigV_tFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteConfig",
+            "printedName": "deleteConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC12deleteConfigyyFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC12deleteConfigyyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSdkConfig",
+            "printedName": "getSdkConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "artemis_core.AAConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AAConfig",
+                    "printedName": "artemis_core.AAConfig",
+                    "usr": "s:12artemis_core8AAConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC12getSdkConfigAA8AAConfigVSgyFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC12getSdkConfigAA8AAConfigVSgyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getApiConfig",
+            "printedName": "getApiConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "artemis_core.AAPIConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AAPIConfig",
+                    "printedName": "artemis_core.AAPIConfig",
+                    "usr": "s:12artemis_core10AAPIConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC12getApiConfigAA10AAPIConfigVSgyFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC12getApiConfigAA10AAPIConfigVSgyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveUserData",
+            "printedName": "saveUserData(userId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC12saveUserData6userIdySS_tFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC12saveUserData6userIdySS_tFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserData",
+            "printedName": "getUserData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "artemis_core.AAUserDataCache?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AAUserDataCache",
+                    "printedName": "artemis_core.AAUserDataCache",
+                    "usr": "s:12artemis_core15AAUserDataCacheV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC11getUserDataAA06AAUserG5CacheVSgyFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC11getUserDataAA06AAUserG5CacheVSgyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAdId",
+            "printedName": "getAdId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC7getAdIdSSSgyFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC7getAdIdSSSgyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveCustomHeaders",
+            "printedName": "saveCustomHeaders(headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC17saveCustomHeaders7headersySDyS2SG_tFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC17saveCustomHeaders7headersySDyS2SG_tFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomHeaders",
+            "printedName": "getCustomHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC16getCustomHeadersSDyS2SGSgyFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC16getCustomHeadersSDyS2SGSgyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCustomHeaders",
+            "printedName": "removeCustomHeaders()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core17AAPreferencesUtilC19removeCustomHeadersyyFZ",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilC19removeCustomHeadersyyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAPreferencesUtil",
+                "printedName": "artemis_core.AAPreferencesUtil",
+                "usr": "c:@M@artemis_core@objc(cs)AAPreferencesUtil"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@artemis_core@objc(cs)AAPreferencesUtil(im)init",
+            "mangledName": "$s12artemis_core17AAPreferencesUtilCACycfc",
+            "moduleName": "artemis_core",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@artemis_core@objc(cs)AAPreferencesUtil",
+        "mangledName": "$s12artemis_core17AAPreferencesUtilC",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAPIConfig",
+        "printedName": "AAPIConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initConfigUrl",
+            "printedName": "initConfigUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core10AAPIConfigV13initConfigUrlSSvp",
+            "mangledName": "$s12artemis_core10AAPIConfigV13initConfigUrlSSvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV13initConfigUrlSSvg",
+                "mangledName": "$s12artemis_core10AAPIConfigV13initConfigUrlSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV13initConfigUrlSSvs",
+                "mangledName": "$s12artemis_core10AAPIConfigV13initConfigUrlSSvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV13initConfigUrlSSvM",
+                "mangledName": "$s12artemis_core10AAPIConfigV13initConfigUrlSSvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiBaseUrl",
+            "printedName": "apiBaseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core10AAPIConfigV10apiBaseUrlSSvp",
+            "mangledName": "$s12artemis_core10AAPIConfigV10apiBaseUrlSSvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV10apiBaseUrlSSvg",
+                "mangledName": "$s12artemis_core10AAPIConfigV10apiBaseUrlSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV10apiBaseUrlSSvs",
+                "mangledName": "$s12artemis_core10AAPIConfigV10apiBaseUrlSSvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV10apiBaseUrlSSvM",
+                "mangledName": "$s12artemis_core10AAPIConfigV10apiBaseUrlSSvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ngtBaseUrl",
+            "printedName": "ngtBaseUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core10AAPIConfigV10ngtBaseUrlSSvp",
+            "mangledName": "$s12artemis_core10AAPIConfigV10ngtBaseUrlSSvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV10ngtBaseUrlSSvg",
+                "mangledName": "$s12artemis_core10AAPIConfigV10ngtBaseUrlSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV10ngtBaseUrlSSvs",
+                "mangledName": "$s12artemis_core10AAPIConfigV10ngtBaseUrlSSvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10AAPIConfigV10ngtBaseUrlSSvM",
+                "mangledName": "$s12artemis_core10AAPIConfigV10ngtBaseUrlSSvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAPIConfig",
+                "printedName": "artemis_core.AAPIConfig",
+                "usr": "s:12artemis_core10AAPIConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12artemis_core10AAPIConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12artemis_core10AAPIConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core10AAPIConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12artemis_core10AAPIConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12artemis_core10AAPIConfigV",
+        "mangledName": "$s12artemis_core10AAPIConfigV",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethod",
+        "printedName": "HTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.HTTPMethod.Type) -> artemis_core.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "artemis_core.HTTPMethod",
+                    "usr": "s:12artemis_core10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "artemis_core.HTTPMethod",
+                        "usr": "s:12artemis_core10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core10HTTPMethodO3getyA2CmF",
+            "mangledName": "$s12artemis_core10HTTPMethodO3getyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.HTTPMethod.Type) -> artemis_core.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "artemis_core.HTTPMethod",
+                    "usr": "s:12artemis_core10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "artemis_core.HTTPMethod",
+                        "usr": "s:12artemis_core10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core10HTTPMethodO4postyA2CmF",
+            "mangledName": "$s12artemis_core10HTTPMethodO4postyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.HTTPMethod.Type) -> artemis_core.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "artemis_core.HTTPMethod",
+                    "usr": "s:12artemis_core10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "artemis_core.HTTPMethod",
+                        "usr": "s:12artemis_core10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core10HTTPMethodO3putyA2CmF",
+            "mangledName": "$s12artemis_core10HTTPMethodO3putyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.HTTPMethod.Type) -> artemis_core.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "artemis_core.HTTPMethod",
+                    "usr": "s:12artemis_core10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "artemis_core.HTTPMethod",
+                        "usr": "s:12artemis_core10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core10HTTPMethodO6deleteyA2CmF",
+            "mangledName": "$s12artemis_core10HTTPMethodO6deleteyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "artemis_core.HTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "artemis_core.HTTPMethod",
+                    "usr": "s:12artemis_core10HTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12artemis_core10HTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12artemis_core10HTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core10HTTPMethodO8rawValueSSvp",
+            "mangledName": "$s12artemis_core10HTTPMethodO8rawValueSSvp",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10HTTPMethodO8rawValueSSvg",
+                "mangledName": "$s12artemis_core10HTTPMethodO8rawValueSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12artemis_core10HTTPMethodO",
+        "mangledName": "$s12artemis_core10HTTPMethodO",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIRequest",
+        "printedName": "APIRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(endpoint:method:path:parameters:headers:body:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIRequest",
+                "printedName": "artemis_core.APIRequest",
+                "usr": "s:12artemis_core10APIRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIEndpoint",
+                "printedName": "artemis_core.APIEndpoint",
+                "usr": "s:12artemis_core11APIEndpointO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "artemis_core.HTTPMethod",
+                "usr": "s:12artemis_core10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12artemis_core10APIRequestV8endpoint6method4path10parameters7headers4bodyAcA11APIEndpointO_AA10HTTPMethodOSDyS2SGSgSDySSypGSgAO10Foundation4DataVSgtcfc",
+            "mangledName": "$s12artemis_core10APIRequestV8endpoint6method4path10parameters7headers4bodyAcA11APIEndpointO_AA10HTTPMethodOSDyS2SGSgSDySSypGSgAO10Foundation4DataVSgtcfc",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12artemis_core10APIRequestV",
+        "mangledName": "$s12artemis_core10APIRequestV",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIEndpoint",
+        "printedName": "APIEndpoint",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "getCampaign",
+            "printedName": "getCampaign",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.APIEndpoint.Type) -> artemis_core.APIEndpoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.APIEndpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndpoint",
+                        "printedName": "artemis_core.APIEndpoint",
+                        "usr": "s:12artemis_core11APIEndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core11APIEndpointO11getCampaignyA2CmF",
+            "mangledName": "$s12artemis_core11APIEndpointO11getCampaignyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "sendTracking",
+            "printedName": "sendTracking",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.APIEndpoint.Type) -> artemis_core.APIEndpoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.APIEndpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndpoint",
+                        "printedName": "artemis_core.APIEndpoint",
+                        "usr": "s:12artemis_core11APIEndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core11APIEndpointO12sendTrackingyA2CmF",
+            "mangledName": "$s12artemis_core11APIEndpointO12sendTrackingyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "sendAppTracking",
+            "printedName": "sendAppTracking",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.APIEndpoint.Type) -> artemis_core.APIEndpoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.APIEndpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndpoint",
+                        "printedName": "artemis_core.APIEndpoint",
+                        "usr": "s:12artemis_core11APIEndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core11APIEndpointO15sendAppTrackingyA2CmF",
+            "mangledName": "$s12artemis_core11APIEndpointO15sendAppTrackingyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "sendPollAnswers",
+            "printedName": "sendPollAnswers",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.APIEndpoint.Type) -> artemis_core.APIEndpoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.APIEndpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndpoint",
+                        "printedName": "artemis_core.APIEndpoint",
+                        "usr": "s:12artemis_core11APIEndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core11APIEndpointO15sendPollAnswersyA2CmF",
+            "mangledName": "$s12artemis_core11APIEndpointO15sendPollAnswersyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "registerInNgt",
+            "printedName": "registerInNgt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.APIEndpoint.Type) -> artemis_core.APIEndpoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.APIEndpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndpoint",
+                        "printedName": "artemis_core.APIEndpoint",
+                        "usr": "s:12artemis_core11APIEndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core11APIEndpointO13registerInNgtyA2CmF",
+            "mangledName": "$s12artemis_core11APIEndpointO13registerInNgtyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "unregisterInNgt",
+            "printedName": "unregisterInNgt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.APIEndpoint.Type) -> artemis_core.APIEndpoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.APIEndpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndpoint",
+                        "printedName": "artemis_core.APIEndpoint",
+                        "usr": "s:12artemis_core11APIEndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core11APIEndpointO15unregisterInNgtyA2CmF",
+            "mangledName": "$s12artemis_core11APIEndpointO15unregisterInNgtyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Var",
+            "name": "ngtCallback",
+            "printedName": "ngtCallback",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(artemis_core.APIEndpoint.Type) -> artemis_core.APIEndpoint",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "artemis_core.APIEndpoint.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "APIEndpoint",
+                        "printedName": "artemis_core.APIEndpoint",
+                        "usr": "s:12artemis_core11APIEndpointO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12artemis_core11APIEndpointO11ngtCallbackyA2CmF",
+            "mangledName": "$s12artemis_core11APIEndpointO11ngtCallbackyA2CmF",
+            "moduleName": "artemis_core"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "artemis_core.APIEndpoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIEndpoint",
+                    "printedName": "artemis_core.APIEndpoint",
+                    "usr": "s:12artemis_core11APIEndpointO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12artemis_core11APIEndpointO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12artemis_core11APIEndpointO8rawValueACSgSS_tcfc",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core11APIEndpointO8rawValueSSvp",
+            "mangledName": "$s12artemis_core11APIEndpointO8rawValueSSvp",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core11APIEndpointO8rawValueSSvg",
+                "mangledName": "$s12artemis_core11APIEndpointO8rawValueSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12artemis_core11APIEndpointO",
+        "mangledName": "$s12artemis_core11APIEndpointO",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIService",
+        "printedName": "APIService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIService",
+                "printedName": "artemis_core.APIService",
+                "usr": "c:@M@artemis_core@objc(cs)APIService"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core10APIServiceC6sharedACvpZ",
+            "mangledName": "$s12artemis_core10APIServiceC6sharedACvpZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "APIService",
+                    "printedName": "artemis_core.APIService",
+                    "usr": "c:@M@artemis_core@objc(cs)APIService"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core10APIServiceC6sharedACvgZ",
+                "mangledName": "$s12artemis_core10APIServiceC6sharedACvgZ",
+                "moduleName": "artemis_core",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIRequest",
+                "printedName": "artemis_core.APIRequest",
+                "usr": "s:12artemis_core10APIRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Data?, Foundation.HTTPURLResponse?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.Data?, Foundation.HTTPURLResponse?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.HTTPURLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPURLResponse",
+                            "printedName": "Foundation.HTTPURLResponse",
+                            "usr": "c:objc(cs)NSHTTPURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core10APIServiceC7request_10completionyAA10APIRequestV_y10Foundation4DataVSg_So17NSHTTPURLResponseCSgs5Error_pSgtctF",
+            "mangledName": "$s12artemis_core10APIServiceC7request_10completionyAA10APIRequestV_y10Foundation4DataVSg_So17NSHTTPURLResponseCSgs5Error_pSgtctF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@artemis_core@objc(cs)APIService",
+        "mangledName": "$s12artemis_core10APIServiceC",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AACoreApiFactory",
+        "printedName": "AACoreApiFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendAppTrackerRequest",
+            "printedName": "sendAppTrackerRequest(contextInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIRequest",
+                "printedName": "artemis_core.APIRequest",
+                "usr": "s:12artemis_core10APIRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AAReportRequest",
+                "printedName": "artemis_core.AAReportRequest",
+                "usr": "s:12artemis_core15AAReportRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core16AACoreApiFactoryC21sendAppTrackerRequest11contextInfoAA10APIRequestVAA08AAReportI0V_tFZ",
+            "mangledName": "$s12artemis_core16AACoreApiFactoryC21sendAppTrackerRequest11contextInfoAA10APIRequestVAA08AAReportI0V_tFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AACoreApiFactory",
+                "printedName": "artemis_core.AACoreApiFactory",
+                "usr": "c:@M@artemis_core@objc(cs)AACoreApiFactory"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@artemis_core@objc(cs)AACoreApiFactory(im)init",
+            "mangledName": "$s12artemis_core16AACoreApiFactoryCACycfc",
+            "moduleName": "artemis_core",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@artemis_core@objc(cs)AACoreApiFactory",
+        "mangledName": "$s12artemis_core16AACoreApiFactoryC",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "Import",
+        "name": "DeviceKit",
+        "printedName": "DeviceKit",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAReportHelper",
+        "printedName": "AAReportHelper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendReport",
+            "printedName": "sendReport(event:campaignUuid:userKeyType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core14AAReportHelperC10sendReport5event12campaignUuid11userKeyTypeySSSg_A2HtFZ",
+            "mangledName": "$s12artemis_core14AAReportHelperC10sendReport5event12campaignUuid11userKeyTypeySSSg_A2HtFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceInfoMap",
+            "printedName": "getDeviceInfoMap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core14AAReportHelperC16getDeviceInfoMapSDyS2SGyFZ",
+            "mangledName": "$s12artemis_core14AAReportHelperC16getDeviceInfoMapSDyS2SGyFZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAReportHelper",
+                "printedName": "artemis_core.AAReportHelper",
+                "usr": "c:@M@artemis_core@objc(cs)AAReportHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@artemis_core@objc(cs)AAReportHelper(im)init",
+            "mangledName": "$s12artemis_core14AAReportHelperCACycfc",
+            "moduleName": "artemis_core",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@artemis_core@objc(cs)AAReportHelper",
+        "mangledName": "$s12artemis_core14AAReportHelperC",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "Var",
+        "name": "data",
+        "printedName": "data",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "AAManager",
+            "printedName": "artemis_core.AAManager",
+            "usr": "c:@M@artemis_core@objc(cs)AAManager"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:12artemis_core4dataAA9AAManagerCvp",
+        "mangledName": "$s12artemis_core4dataAA9AAManagerCvp",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAManager",
+                "printedName": "artemis_core.AAManager",
+                "usr": "c:@M@artemis_core@objc(cs)AAManager"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:12artemis_core4dataAA9AAManagerCvg",
+            "mangledName": "$s12artemis_core4dataAA9AAManagerCvg",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAManager",
+        "printedName": "AAManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAManager",
+                "printedName": "artemis_core.AAManager",
+                "usr": "c:@M@artemis_core@objc(cs)AAManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core9AAManagerC14sharedInstanceACvpZ",
+            "mangledName": "$s12artemis_core9AAManagerC14sharedInstanceACvpZ",
+            "moduleName": "artemis_core",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AAManager",
+                    "printedName": "artemis_core.AAManager",
+                    "usr": "c:@M@artemis_core@objc(cs)AAManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core9AAManagerC14sharedInstanceACvgZ",
+                "mangledName": "$s12artemis_core9AAManagerC14sharedInstanceACvgZ",
+                "moduleName": "artemis_core",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isInitialized",
+            "printedName": "isInitialized()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core9AAManagerC13isInitializedSbyF",
+            "mangledName": "$s12artemis_core9AAManagerC13isInitializedSbyF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDebugMode",
+            "printedName": "isDebugMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core9AAManagerC11isDebugModeSbyF",
+            "mangledName": "$s12artemis_core9AAManagerC11isDebugModeSbyF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDisabled",
+            "printedName": "isDisabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core9AAManagerC10isDisabledSbyF",
+            "mangledName": "$s12artemis_core9AAManagerC10isDisabledSbyF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(appKey:debugMode:initCompleteCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core9AAManagerC10initialize6appKey9debugMode20initCompleteCallbackySS_SbSgyycSgtF",
+            "mangledName": "$s12artemis_core9AAManagerC10initialize6appKey9debugMode20initCompleteCallbackySS_SbSgyycSgtF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(userId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core9AAManagerC9setUserId04userF0ySS_tF",
+            "mangledName": "$s12artemis_core9AAManagerC9setUserId04userF0ySS_tF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomHeaders",
+            "printedName": "setCustomHeaders(headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core9AAManagerC16setCustomHeaders7headersySDyS2SG_tF",
+            "mangledName": "$s12artemis_core9AAManagerC16setCustomHeaders7headersySDyS2SG_tF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core9AAManagerC17requestPermissionyyF",
+            "mangledName": "$s12artemis_core9AAManagerC17requestPermissionyyF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@artemis_core@objc(cs)AAManager",
+        "mangledName": "$s12artemis_core9AAManagerC",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAdsApiFactory",
+        "printedName": "AAdsApiFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendAppTracking",
+            "printedName": "sendAppTracking(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "APIRequest",
+                "printedName": "artemis_core.APIRequest",
+                "usr": "s:12artemis_core10APIRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.HTTPURLResponse?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.HTTPURLResponse?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.HTTPURLResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HTTPURLResponse",
+                            "printedName": "Foundation.HTTPURLResponse",
+                            "usr": "c:objc(cs)NSHTTPURLResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core14AAdsApiFactoryC15sendAppTracking7request10completionyAA10APIRequestV_ySo17NSHTTPURLResponseCSg_s5Error_pSgtctF",
+            "mangledName": "$s12artemis_core14AAdsApiFactoryC15sendAppTracking7request10completionyAA10APIRequestV_ySo17NSHTTPURLResponseCSg_s5Error_pSgtctF",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAdsApiFactory",
+                "printedName": "artemis_core.AAdsApiFactory",
+                "usr": "c:@M@artemis_core@objc(cs)AAdsApiFactory"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@artemis_core@objc(cs)AAdsApiFactory(im)init",
+            "mangledName": "$s12artemis_core14AAdsApiFactoryCACycfc",
+            "moduleName": "artemis_core",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@artemis_core@objc(cs)AAdsApiFactory",
+        "mangledName": "$s12artemis_core14AAdsApiFactoryC",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "artemis_core"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAUserDataCache",
+        "printedName": "AAUserDataCache",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core15AAUserDataCacheV6userIdSSvp",
+            "mangledName": "$s12artemis_core15AAUserDataCacheV6userIdSSvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core15AAUserDataCacheV6userIdSSvg",
+                "mangledName": "$s12artemis_core15AAUserDataCacheV6userIdSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core15AAUserDataCacheV6userIdSSvs",
+                "mangledName": "$s12artemis_core15AAUserDataCacheV6userIdSSvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core15AAUserDataCacheV6userIdSSvM",
+                "mangledName": "$s12artemis_core15AAUserDataCacheV6userIdSSvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "advertisingId",
+            "printedName": "advertisingId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core15AAUserDataCacheV13advertisingIdSSSgvp",
+            "mangledName": "$s12artemis_core15AAUserDataCacheV13advertisingIdSSSgvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core15AAUserDataCacheV13advertisingIdSSSgvg",
+                "mangledName": "$s12artemis_core15AAUserDataCacheV13advertisingIdSSSgvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core15AAUserDataCacheV13advertisingIdSSSgvs",
+                "mangledName": "$s12artemis_core15AAUserDataCacheV13advertisingIdSSSgvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core15AAUserDataCacheV13advertisingIdSSSgvM",
+                "mangledName": "$s12artemis_core15AAUserDataCacheV13advertisingIdSSSgvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAUserDataCache",
+                "printedName": "artemis_core.AAUserDataCache",
+                "usr": "s:12artemis_core15AAUserDataCacheV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12artemis_core15AAUserDataCacheV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12artemis_core15AAUserDataCacheV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core15AAUserDataCacheV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12artemis_core15AAUserDataCacheV6encode2toys7Encoder_p_tKF",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12artemis_core15AAUserDataCacheV",
+        "mangledName": "$s12artemis_core15AAUserDataCacheV",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAReportRequest",
+        "printedName": "AAReportRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAReportRequest",
+                "printedName": "artemis_core.AAReportRequest",
+                "usr": "s:12artemis_core15AAReportRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12artemis_core15AAReportRequestV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12artemis_core15AAReportRequestV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core15AAReportRequestV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12artemis_core15AAReportRequestV6encode2toys7Encoder_p_tKF",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12artemis_core15AAReportRequestV",
+        "mangledName": "$s12artemis_core15AAReportRequestV",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AAConfig",
+        "printedName": "AAConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ngtNotificationType",
+            "printedName": "ngtNotificationType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core8AAConfigV19ngtNotificationTypeSSvp",
+            "mangledName": "$s12artemis_core8AAConfigV19ngtNotificationTypeSSvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV19ngtNotificationTypeSSvg",
+                "mangledName": "$s12artemis_core8AAConfigV19ngtNotificationTypeSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV19ngtNotificationTypeSSvs",
+                "mangledName": "$s12artemis_core8AAConfigV19ngtNotificationTypeSSvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV19ngtNotificationTypeSSvM",
+                "mangledName": "$s12artemis_core8AAConfigV19ngtNotificationTypeSSvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ngtAppId",
+            "printedName": "ngtAppId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core8AAConfigV8ngtAppIdSSvp",
+            "mangledName": "$s12artemis_core8AAConfigV8ngtAppIdSSvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV8ngtAppIdSSvg",
+                "mangledName": "$s12artemis_core8AAConfigV8ngtAppIdSSvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV8ngtAppIdSSvs",
+                "mangledName": "$s12artemis_core8AAConfigV8ngtAppIdSSvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV8ngtAppIdSSvM",
+                "mangledName": "$s12artemis_core8AAConfigV8ngtAppIdSSvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kill",
+            "printedName": "kill",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core8AAConfigV4killSbSgvp",
+            "mangledName": "$s12artemis_core8AAConfigV4killSbSgvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV4killSbSgvg",
+                "mangledName": "$s12artemis_core8AAConfigV4killSbSgvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV4killSbSgvs",
+                "mangledName": "$s12artemis_core8AAConfigV4killSbSgvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV4killSbSgvM",
+                "mangledName": "$s12artemis_core8AAConfigV4killSbSgvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "artemisAdsAppId",
+            "printedName": "artemisAdsAppId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12artemis_core8AAConfigV0A8AdsAppIdSSSgvp",
+            "mangledName": "$s12artemis_core8AAConfigV0A8AdsAppIdSSSgvp",
+            "moduleName": "artemis_core",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV0A8AdsAppIdSSSgvg",
+                "mangledName": "$s12artemis_core8AAConfigV0A8AdsAppIdSSSgvg",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV0A8AdsAppIdSSSgvs",
+                "mangledName": "$s12artemis_core8AAConfigV0A8AdsAppIdSSSgvs",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12artemis_core8AAConfigV0A8AdsAppIdSSSgvM",
+                "mangledName": "$s12artemis_core8AAConfigV0A8AdsAppIdSSSgvM",
+                "moduleName": "artemis_core",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AAConfig",
+                "printedName": "artemis_core.AAConfig",
+                "usr": "s:12artemis_core8AAConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12artemis_core8AAConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12artemis_core8AAConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12artemis_core8AAConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12artemis_core8AAConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "artemis_core",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12artemis_core8AAConfigV",
+        "mangledName": "$s12artemis_core8AAConfigV",
+        "moduleName": "artemis_core",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Util\/AAPreferencesUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 133,
+      "value": "\"group.\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Util\/AAPreferencesUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 32,
+      "value": "\".ArtemisAdsNotificationService\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Util\/AAPreferencesUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Util\/AAPreferencesUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 17,
+      "value": "\"br.com.mobicare\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Util\/AAPreferencesUtil.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 1,
+      "value": "\".aa\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 23,
+      "value": "\"\/campaign\/v3\/{zoneId}\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2141,
+      "length": 10,
+      "value": "\"\/tracker\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2179,
+      "length": 14,
+      "value": "\"\/tracker\/app\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2221,
+      "length": 15,
+      "value": "\"\/tracker\/quiz\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2267,
+      "length": 14,
+      "value": "\"\/v2\/register\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 16,
+      "value": "\"\/v1\/unregister\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2349,
+      "length": 21,
+      "value": "\"\/v1\/device\/callback\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 23,
+      "value": "\"\/campaign\/v3\/{zoneId}\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2141,
+      "length": 10,
+      "value": "\"\/tracker\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2179,
+      "length": 14,
+      "value": "\"\/tracker\/app\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2221,
+      "length": 15,
+      "value": "\"\/tracker\/quiz\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2267,
+      "length": 14,
+      "value": "\"\/v2\/register\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 16,
+      "value": "\"\/v1\/unregister\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Network\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 2349,
+      "length": 21,
+      "value": "\"\/v1\/device\/callback\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/AAManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/AAManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 261,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/AAManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 301,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/AAManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 876,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 4,
+      "value": "\"nt\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 5,
+      "value": "\"nai\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 3,
+      "value": "\"k\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 17,
+      "value": "\"artemisAdsAppId\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 4,
+      "value": "\"nt\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 5,
+      "value": "\"nai\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 3,
+      "value": "\"k\""
+    },
+    {
+      "filePath": "\/Users\/rafael.takenaka\/Developer\/mcare-artemis-ads-sdk-ios\/artemis-core\/artemis-core\/Core\/Model\/AAConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 17,
+      "value": "\"artemisAdsAppId\""
+    }
+  ]
+}

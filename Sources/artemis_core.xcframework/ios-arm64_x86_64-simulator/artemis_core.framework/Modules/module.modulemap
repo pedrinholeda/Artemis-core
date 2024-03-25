@@ -1,0 +1,11 @@
+framework module artemis_core {
+  umbrella header "artemis_core.h"
+  export *
+
+  module * { export * }
+}
+
+module artemis_core.Swift {
+  header "artemis_core-Swift.h"
+  requires objc
+}
